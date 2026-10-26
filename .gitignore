@@ -1,0 +1,35 @@
+# ==============================================================================
+# GITIGNORE - TUGAS SESI 9 SOFTWARE TESTING
+# Mengabaikan cache, laporan HTML coverage, dan file temporary sistem.
+# Hanya menyimpan file Python (*.py) dan dokumentasi (README.md).
+# ==============================================================================
+
+# Coverage reports & HTML output
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+
+# PyTest cache
+.pytest_cache/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (jika ada)
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# OS temporary files
+Thumbs.db
+.DS_Store
